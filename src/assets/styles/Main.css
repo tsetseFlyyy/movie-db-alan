@@ -1,0 +1,93 @@
+.container {
+  padding: 100px 0;
+}
+
+.poster-movie {
+	display: flex;
+	flex-direction: column;
+	align-items: start;
+	
+	background-size: cover;
+	background-position: center;
+	height: 650px;
+	border-radius: 8px;
+	justify-content: end;
+}
+
+.poster-movie-title {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 56px;
+  text-shadow: 1px 1px 10px black;
+  padding-left: 50px;
+}
+
+.movies-container,
+.shows-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 50px;
+}
+
+.movie-card {
+  width: 200px;
+}
+
+.movie-card img {
+  border-radius: 8px;
+}
+
+.movie-title {
+  font-family: "Lato";
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  margin-top: 10px;
+  margin-bottom: 7px;
+}
+
+.movie-date {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 16px;
+  color: #878792;
+}
+
+.movies,
+.shows {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 90px;
+}
+
+.shows {
+  /*padding-top: 25px;*/
+}
+
+.place {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 25px;
+}
+
+.see-all {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 25px;
+}
+
+.see-all::after {
+  content: "\203A";
+  margin-left: 7px;
+}
